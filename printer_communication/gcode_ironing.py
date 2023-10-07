@@ -1,6 +1,6 @@
 # gcode_patj: layerwise_gcode_file
 
-def generate_iron_layer(gcode_path, layerID, output_path, E_proportion = 0.3, S_proportion = 0.5):
+def generate_iron_layer(gcode_path, output_path, E_proportion = 0.3, S_proportion = 0.5):
     new_gcode_list = []
     gcode = [i.strip() for i in open(gcode_path)]
     for line in gcode:
@@ -34,8 +34,8 @@ def generate_iron_layer(gcode_path, layerID, output_path, E_proportion = 0.3, S_
     for line in new_gcode_list:
         file.write(line + "\n")
 
-layer=1
-layer_gcode_path = "printer_communication/layerwise_gcode_file/layer_{}.gcode".format(layer)
-cor_gcode_dir = "printer_communication/iron_layer_gcode_file/"
-output_path = cor_gcode_dir + "layer_{}_cor.gcode".format(layer)
-generate_iron_layer(layer_gcode_path, layer, output_path)
+# layer=1
+# layer_gcode_path = "printer_communication/layerwise_gcode_file/layer_{}.gcode".format(layer)
+# cor_gcode_dir = "printer_communication/iron_layer_gcode_file/"
+# output_path = cor_gcode_dir + "layer_{}_cor.gcode".format(layer)
+# generate_iron_layer(layer_gcode_path, layer, output_path)

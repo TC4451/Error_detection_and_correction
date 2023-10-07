@@ -1,20 +1,19 @@
 import cv2
-# from to_printcore_by_layer import send_gcode
 from projection_elp import get_defect_positions
 from gcode_ironing import generate_iron_layer
+from camera_control import take_pic
 from printrun.printcore import printcore
 from printrun import gcoder
 import time
-import json
-import sys
 
 gcode_path = 'printer_communication/gcode/SmallBellow_newwoutTri.gcode'
-layer_gcode_path = 'printer_communication/layerwise_gcode_file/'
-cor_gcode_path = 'printer_communication/correction_gcode_file/'
+layer_gcode_dir = 'printer_communication/layerwise_gcode_file/'
+cor_gcode_dir = 'printer_communication/iron_layer_gcode_file/'
+img_dir_path = 'printer_communication/elp_test/'
 total_layer = 239
+defect_threshold = 100
 
-
-
+# send gcode to printer
 def print_gcode(path):
     print_core = printcore('COM3', 115200)
     gcode0 = [i.strip() for i in open(path)]
@@ -28,13 +27,26 @@ def print_gcode(path):
         pass
     print_core.disconnect()
 
-print_gcode(layer_gcode_path + "layer_0.gcode")
+print_gcode(layer_gcode_dir + "layer_0.gcode")
 # print('printer_communication/gcode/test.gcode')
 # print('printer_communication/gcode/test2.gcode')
 
 
+for i in range(1, total_layer):
+    layer_gcode = layer_gcode_dir + "layer_{}.gcode".format(i)
+    print_gcode(layer_gcode)
+    img_path = img_dir_path + 'layer_{}.jpg'.format(i)
+    take_pic(img_dir_path, i)
+    coord_list = get_defect_positions(img_path, gcode_path, i, type=2)
+    coord_list=[element for sublist in coord_list for element in sublist]
+    if len(coord_list) < defect_threshold:
+        pass
+    else:
+        print("fixing")
+        output_path = cor_gcode_dir + "layer_{}_cor.gcode".format(i)
+        generate_iron_layer(layer_gcode, output_path)
+        print_gcode(output_path)
 
-# while(cap.isOpened()):
 
 
 

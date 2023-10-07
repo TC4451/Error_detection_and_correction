@@ -892,5 +892,4 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:11.7

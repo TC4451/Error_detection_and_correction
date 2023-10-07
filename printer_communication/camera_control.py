@@ -11,4 +11,4 @@ def take_pic(img_dir_path, layerID):
     cap.release() # release storage
     # cv2.destroyAllWindows()
 
-take_pic('printer_communication/elp_test/', 'test')
+# take_pic('printer_communication/elp_test/', 'test')

@@ -53,7 +53,6 @@ M900 K0
 M107
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:0.2
 ;HEIGHT:0.2
 ;BEFORE_LAYER_CHANGE
@@ -613,7 +612,6 @@ G1 X147.787 Y150.922 E.00188
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:0.3
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -1215,7 +1213,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:0.4
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -1829,7 +1826,6 @@ M204 S1000
 M106 S193.8
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:0.5
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -2406,7 +2402,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:0.6
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -2989,7 +2984,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:0.7
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -3560,7 +3554,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:0.8
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -4139,7 +4132,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:0.9
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -4701,7 +4693,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:1
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -5281,7 +5272,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:1.1
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -5845,7 +5835,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:1.2
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -6408,7 +6397,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:1.3
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -6984,7 +6972,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:1.4
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -7561,7 +7548,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:1.5
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -8122,7 +8108,6 @@ M204 S1000
 M106 S196.35
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:1.6
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -8658,7 +8643,6 @@ M204 S1000
 M106 S201.45
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:1.7
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -9230,7 +9214,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:1.8
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -9763,7 +9746,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:1.9
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -10348,7 +10330,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:2
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -10911,7 +10892,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:2.1
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -11452,7 +11432,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:2.2
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -11924,7 +11903,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:2.3
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -12456,7 +12434,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:2.4
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -12965,7 +12942,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:2.5
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -13537,7 +13513,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:2.6
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -14080,7 +14055,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:2.7
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -14612,7 +14586,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:2.8
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -15140,7 +15113,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:2.9
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -15727,7 +15699,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:3
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -16334,7 +16305,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:3.1
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -16866,7 +16836,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:3.2
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -17350,7 +17319,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:3.3
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -17894,7 +17862,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:3.4
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -18451,7 +18418,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:3.5
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -18947,7 +18913,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:3.6
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -19472,7 +19437,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:3.7
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -20085,7 +20049,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:3.8
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -20698,7 +20661,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:3.9
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -21239,7 +21201,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:4
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -21821,7 +21782,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:4.1
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -22418,7 +22378,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:4.2
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -22967,7 +22926,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:4.3
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -23525,7 +23483,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:4.4
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -24089,7 +24046,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:4.5
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -24597,7 +24553,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:4.6
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -25201,7 +25156,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:4.7
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -25781,7 +25735,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:4.8
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -26374,7 +26327,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:4.9
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -26929,7 +26881,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:5
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -27525,7 +27476,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:5.1
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -28072,7 +28022,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:5.2
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -28618,7 +28567,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:5.3
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -29191,7 +29139,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:5.4
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -29789,7 +29736,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:5.5
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -30283,7 +30229,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:5.6
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -30867,7 +30812,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:5.7
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -31412,7 +31356,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:5.8
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -31977,7 +31920,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:5.9
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -32493,7 +32435,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:6
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -33110,7 +33051,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:6.1
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -33671,7 +33611,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:6.2
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -34291,7 +34230,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:6.3
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -34876,7 +34814,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:6.4
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -35424,7 +35361,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:6.5
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -36031,7 +35967,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:6.6
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -36633,7 +36568,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:6.7
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -37193,7 +37127,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:6.8
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -37708,7 +37641,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:6.9
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -38289,7 +38221,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:7
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -38812,7 +38743,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:7.1
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -39358,7 +39288,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:7.2
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -39905,7 +39834,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:7.3
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -40520,7 +40448,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:7.4
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -41039,7 +40966,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:7.5
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -41638,7 +41564,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:7.6
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -42247,7 +42172,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:7.7
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -42819,7 +42743,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:7.8
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -43325,7 +43248,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:7.9
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -43953,7 +43875,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:8
 ;HEIGHT:0.0999999
 ;BEFORE_LAYER_CHANGE
@@ -44428,7 +44349,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:8.1
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -45094,7 +45014,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:8.2
 ;HEIGHT:0.0999994
 ;BEFORE_LAYER_CHANGE
@@ -45679,7 +45598,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:8.3
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -46250,7 +46168,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:8.4
 ;HEIGHT:0.0999994
 ;BEFORE_LAYER_CHANGE
@@ -46810,7 +46727,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:8.5
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -47475,7 +47391,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:8.6
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -48110,7 +48025,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:8.7
 ;HEIGHT:0.0999994
 ;BEFORE_LAYER_CHANGE
@@ -48950,7 +48864,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:8.8
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -49686,7 +49599,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:8.9
 ;HEIGHT:0.0999994
 ;BEFORE_LAYER_CHANGE
@@ -50453,7 +50365,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:9
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -51207,7 +51118,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:9.1
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -51928,7 +51838,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:9.2
 ;HEIGHT:0.0999994
 ;BEFORE_LAYER_CHANGE
@@ -52626,7 +52535,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:9.3
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -53425,7 +53333,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:9.4
 ;HEIGHT:0.0999994
 ;BEFORE_LAYER_CHANGE
@@ -54235,7 +54142,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:9.5
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -55007,7 +54913,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:9.6
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -55800,7 +55705,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:9.7
 ;HEIGHT:0.0999994
 ;BEFORE_LAYER_CHANGE
@@ -56472,7 +56376,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:9.8
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -57182,7 +57085,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:9.9
 ;HEIGHT:0.0999994
 ;BEFORE_LAYER_CHANGE
@@ -58020,7 +57922,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:10
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -58784,7 +58685,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:10.1
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -59460,7 +59360,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:10.2
 ;HEIGHT:0.0999994
 ;BEFORE_LAYER_CHANGE
@@ -60203,7 +60102,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:10.3
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -60983,7 +60881,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:10.4
 ;HEIGHT:0.0999994
 ;BEFORE_LAYER_CHANGE
@@ -61722,7 +61619,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:10.5
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -62534,7 +62430,6 @@ M204 S1000
 M106 S198.9
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:10.6
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -63408,7 +63303,6 @@ M204 S1000
 M106 S201.45
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:10.7
 ;HEIGHT:0.0999994
 ;BEFORE_LAYER_CHANGE
@@ -64207,7 +64101,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:10.8
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -64996,7 +64889,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:10.9
 ;HEIGHT:0.0999994
 ;BEFORE_LAYER_CHANGE
@@ -65844,7 +65736,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:11
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -66695,7 +66586,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:11.1
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -67665,7 +67555,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:11.2
 ;HEIGHT:0.0999994
 ;BEFORE_LAYER_CHANGE
@@ -68713,7 +68602,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:11.3
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -69778,7 +69666,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:11.4
 ;HEIGHT:0.0999994
 ;BEFORE_LAYER_CHANGE
@@ -70831,7 +70718,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:11.5
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -71740,7 +71626,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:11.6
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -72636,7 +72521,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:11.7
 ;HEIGHT:0.0999994
 ;BEFORE_LAYER_CHANGE
@@ -73569,7 +73453,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:11.8
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -74756,7 +74639,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:11.9
 ;HEIGHT:0.0999994
 ;BEFORE_LAYER_CHANGE
@@ -75550,7 +75432,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:12
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -76496,7 +76377,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:12.1
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -77374,7 +77254,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:12.2
 ;HEIGHT:0.0999994
 ;BEFORE_LAYER_CHANGE
@@ -78282,7 +78161,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:12.3
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -79207,7 +79085,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:12.4
 ;HEIGHT:0.0999994
 ;BEFORE_LAYER_CHANGE
@@ -80112,7 +79989,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:12.5
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -81022,7 +80898,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:12.6
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -82123,7 +81998,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:12.7
 ;HEIGHT:0.0999994
 ;BEFORE_LAYER_CHANGE
@@ -83263,7 +83137,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:12.8
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -84383,7 +84256,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:12.9
 ;HEIGHT:0.0999994
 ;BEFORE_LAYER_CHANGE
@@ -85528,7 +85400,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:13
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -86670,7 +86541,6 @@ M204 S1000
 M106 S198.9
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:13.1
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -87821,7 +87691,6 @@ M204 S1000
 M106 S201.45
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:13.2
 ;HEIGHT:0.0999994
 ;BEFORE_LAYER_CHANGE
@@ -88652,7 +88521,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:13.3
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -89519,7 +89387,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:13.4
 ;HEIGHT:0.0999994
 ;BEFORE_LAYER_CHANGE
@@ -90326,7 +90193,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:13.5
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -91142,7 +91008,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:13.6
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -91912,7 +91777,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:13.7
 ;HEIGHT:0.0999994
 ;BEFORE_LAYER_CHANGE
@@ -92720,7 +92584,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:13.8
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -93480,7 +93343,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:13.9
 ;HEIGHT:0.0999994
 ;BEFORE_LAYER_CHANGE
@@ -94297,7 +94159,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:14
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -95027,7 +94888,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:14.1
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -95700,7 +95560,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:14.2
 ;HEIGHT:0.0999994
 ;BEFORE_LAYER_CHANGE
@@ -96361,7 +96220,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:14.3
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -97044,7 +96902,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:14.4
 ;HEIGHT:0.0999994
 ;BEFORE_LAYER_CHANGE
@@ -97793,7 +97650,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:14.5
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -98490,7 +98346,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:14.6
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -99215,7 +99070,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:14.7
 ;HEIGHT:0.0999994
 ;BEFORE_LAYER_CHANGE
@@ -100007,7 +99861,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:14.8
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -100664,7 +100517,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:14.9
 ;HEIGHT:0.0999994
 ;BEFORE_LAYER_CHANGE
@@ -101384,7 +101236,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:15
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -102195,7 +102046,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:15.1
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -102899,7 +102749,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:15.2
 ;HEIGHT:0.0999994
 ;BEFORE_LAYER_CHANGE
@@ -103774,7 +103623,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:15.3
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -104525,7 +104373,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:15.4
 ;HEIGHT:0.0999994
 ;BEFORE_LAYER_CHANGE
@@ -105249,7 +105096,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:15.5
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -105884,7 +105730,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:15.6
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -106469,7 +106314,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:15.7
 ;HEIGHT:0.0999994
 ;BEFORE_LAYER_CHANGE
@@ -107056,7 +106900,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:15.8
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -107702,7 +107545,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:15.9
 ;HEIGHT:0.0999994
 ;BEFORE_LAYER_CHANGE
@@ -108237,7 +108079,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:16
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -108844,7 +108685,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:16.1
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -109518,7 +109358,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:16.2
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -110138,7 +109977,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:16.3
 ;HEIGHT:0.0999985
 ;BEFORE_LAYER_CHANGE
@@ -110683,7 +110521,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:16.4
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -111313,7 +111150,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:16.5
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -111883,7 +111719,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:16.6
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -112439,7 +112274,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:16.7
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -113007,7 +112841,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:16.8
 ;HEIGHT:0.0999985
 ;BEFORE_LAYER_CHANGE
@@ -113584,7 +113417,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:16.9
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -114166,7 +113998,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:17
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -114711,7 +114542,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:17.1
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -115282,7 +115112,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:17.2
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -115849,7 +115678,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:17.3
 ;HEIGHT:0.0999985
 ;BEFORE_LAYER_CHANGE
@@ -116447,7 +116275,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:17.4
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -117048,7 +116875,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:17.5
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -117639,7 +117465,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:17.6
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -118189,7 +118014,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:17.7
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -118798,7 +118622,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:17.8
 ;HEIGHT:0.0999985
 ;BEFORE_LAYER_CHANGE
@@ -119358,7 +119181,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:17.9
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -119948,7 +119770,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:18
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -120482,7 +120303,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:18.1
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -121101,7 +120921,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:18.2
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -121728,7 +121547,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:18.3
 ;HEIGHT:0.0999985
 ;BEFORE_LAYER_CHANGE
@@ -122334,7 +122152,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:18.4
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -122914,7 +122731,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:18.5
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -123439,7 +123255,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:18.6
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -124113,7 +123928,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:18.7
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -124715,7 +124529,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:18.8
 ;HEIGHT:0.0999985
 ;BEFORE_LAYER_CHANGE
@@ -125321,7 +125134,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:18.9
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -125914,7 +125726,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:19
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -126550,7 +126361,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:19.1
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -127093,7 +126903,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:19.2
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -127706,7 +127515,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:19.3
 ;HEIGHT:0.0999985
 ;BEFORE_LAYER_CHANGE
@@ -128298,7 +128106,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:19.4
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -128947,7 +128754,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:19.5
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -129507,7 +129313,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:19.6
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -130040,7 +129845,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:19.7
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -130564,7 +130368,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:19.8
 ;HEIGHT:0.0999985
 ;BEFORE_LAYER_CHANGE
@@ -131170,7 +130973,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:19.9
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -131751,7 +131553,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:20
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -132402,7 +132203,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:20.1
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -133008,7 +132808,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:20.2
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -133583,7 +133382,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:20.3
 ;HEIGHT:0.0999985
 ;BEFORE_LAYER_CHANGE
@@ -134198,7 +133996,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:20.4
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -134816,7 +134613,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:20.5
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -135378,7 +135174,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:20.6
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -135902,7 +135697,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:20.7
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -136469,7 +136263,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:20.8
 ;HEIGHT:0.0999985
 ;BEFORE_LAYER_CHANGE
@@ -137064,7 +136857,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:20.9
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -137576,7 +137368,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:21
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -138162,7 +137953,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:21.1
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -138706,7 +138496,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:21.2
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -139262,7 +139051,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:21.3
 ;HEIGHT:0.0999985
 ;BEFORE_LAYER_CHANGE
@@ -139831,7 +139619,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:21.4
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -140337,7 +140124,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:21.5
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -140900,7 +140686,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:21.6
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -141467,7 +141252,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:21.7
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -141965,7 +141749,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:21.8
 ;HEIGHT:0.0999985
 ;BEFORE_LAYER_CHANGE
@@ -142532,7 +142315,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:21.9
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -143105,7 +142887,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:22
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -143651,7 +143432,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:22.1
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -144336,7 +144116,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:22.2
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -144865,7 +144644,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:22.3
 ;HEIGHT:0.0999985
 ;BEFORE_LAYER_CHANGE
@@ -145420,7 +145198,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:22.4
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -145977,7 +145754,6 @@ M204 S1000
 M106 S196.35
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:22.5
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -146487,7 +146263,6 @@ M204 S1000
 M106 S191.25
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:22.6
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -147064,7 +146839,6 @@ M204 S1000
 M106 S193.8
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:22.7
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -147635,7 +147409,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:22.8
 ;HEIGHT:0.0999985
 ;BEFORE_LAYER_CHANGE
@@ -148199,7 +147972,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:22.9
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -148761,7 +148533,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:23
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -149323,7 +149094,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:23.1
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -149884,7 +149654,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:23.2
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -150455,7 +150224,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:23.3
 ;HEIGHT:0.0999985
 ;BEFORE_LAYER_CHANGE
@@ -151024,7 +150792,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:23.4
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -151602,7 +151369,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:23.5
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -152167,7 +151933,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:23.6
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -152748,7 +152513,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:23.7
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -153314,7 +153078,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:23.8
 ;HEIGHT:0.0999985
 ;BEFORE_LAYER_CHANGE
@@ -153878,7 +153641,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:23.9
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE
@@ -154449,7 +154211,6 @@ M204 S1000
 ; stop printing object support_triangle.stl id:1 copy 0
 ;LAYER_CHANGE
 G1 X148 Y150
-G4 P10000
 ;Z:24
 ;HEIGHT:0.1
 ;BEFORE_LAYER_CHANGE

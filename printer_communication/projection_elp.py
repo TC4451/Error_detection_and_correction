@@ -153,4 +153,7 @@ def get_defect_positions(img_path, gcode_path, layerID, type = 1):
 # layerID = imgID
 # # positions = get_defect_positions(img_path, gcode_path, layerID)
 
-# print(positions)
+# # print(positions)
+# coord_list = get_defect_positions('printer_communication\elp_test\layer_1.jpg', 'printer_communication/gcode/SmallBellow_newwoutTri.gcode', 1, type = 2)
+# coord_list=[element for sublist in coord_list for element in sublist]
+# print(len(coord_list))
