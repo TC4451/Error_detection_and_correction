@@ -13,10 +13,9 @@ layer_gcode_path = 'printer_communication/layerwise_gcode_file/'
 cor_gcode_path = 'printer_communication/correction_gcode_file/'
 total_layer = 239
 
-# open camera
-# cap = cv2.VideoCapture(1)
 
-def print(path):
+
+def print_gcode(path):
     print_core = printcore('COM3', 115200)
     gcode0 = [i.strip() for i in open(path)]
     gcode = gcoder.LightGCode(gcode0)
@@ -29,8 +28,9 @@ def print(path):
         pass
     print_core.disconnect()
 
-print('printer_communication/gcode/test.gcode')
-print('printer_communication/gcode/test2.gcode')
+print_gcode(layer_gcode_path + "layer_0.gcode")
+# print('printer_communication/gcode/test.gcode')
+# print('printer_communication/gcode/test2.gcode')
 
 
 
