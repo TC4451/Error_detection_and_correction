@@ -18,7 +18,7 @@ def parse_layer(gcode_file):
                 break
 
 
-parse_layer('printer_communication/gcode/SmallBellow_Tri_move.gcode')
+parse_layer('printer_communication/gcode/SmallBellow_newTri_move.gcode')
 
 # !!! need to think of a way to deal with the end of the file
 

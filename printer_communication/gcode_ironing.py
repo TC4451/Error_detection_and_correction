@@ -1,6 +1,6 @@
 # gcode_patj: layerwise_gcode_file
 
-def generate_iron_layer(gcode_path, layerID, output_path, E_proportion = 0.05, flowrate = 1000):
+def generate_iron_layer(gcode_path, layerID, output_path, E_proportion = 0.3, F_proportion = 0.5):
     new_gcode_list = []
     gcode = [i.strip() for i in open(gcode_path)]
     for line in gcode:
