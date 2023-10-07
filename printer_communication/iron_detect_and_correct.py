@@ -16,31 +16,22 @@ total_layer = 239
 # open camera
 # cap = cv2.VideoCapture(1)
 
-print_core = printcore('COM3', 115200)
-gcode0 = [i.strip() for i in open('printer_communication/gcode/test.gcode')]
-gcode = gcoder.LightGCode(gcode0)
+def print(path):
+    print_core = printcore('COM3', 115200)
+    gcode0 = [i.strip() for i in open(path)]
+    gcode = gcoder.LightGCode(gcode0)
 
-while not print_core.online:
-  time.sleep(0.1)
-  print(3)
+    while not print_core.online:
+        time.sleep(0.1)
 
-print(4)
-ret = False
-# while ret == False:
-#     ret = print_core.startprint(gcode)
-#     print(ret)
-print_core.startprint(gcode)
+    print_core.startprint(gcode)
+    while print_core.printing == True:
+        pass
+    print_core.disconnect()
 
-# gcode1 = [i.strip() for i in open(layer_gcode_path + 'layer_1.gcode')]
-# gcode = gcoder.LightGCode(gcode1)
+print('printer_communication/gcode/test.gcode')
+print('printer_communication/gcode/test2.gcode')
 
-# print_core.startprint(gcode)
-
-# sys.exit()
-while print_core.printing == True:
-  print(1)
-
-print_core.disconnect()
 
 
 # while(cap.isOpened()):
