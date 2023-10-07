@@ -1,12 +1,54 @@
 import cv2
-from to_printcore_by_layer import send_gcode
+# from to_printcore_by_layer import send_gcode
 from projection_elp import get_defect_positions
 from gcode_ironing import generate_iron_layer
-
-# cap = cv2.VideoCapture(1)
+from printrun.printcore import printcore
+from printrun import gcoder
+import time
+import json
+import sys
 
 gcode_path = 'printer_communication/gcode/SmallBellow_newwoutTri.gcode'
+layer_gcode_path = 'printer_communication/layerwise_gcode_file/'
+cor_gcode_path = 'printer_communication/correction_gcode_file/'
 total_layer = 239
+
+# open camera
+# cap = cv2.VideoCapture(1)
+
+print_core = printcore('COM3', 115200)
+gcode0 = [i.strip() for i in open('printer_communication/gcode/test.gcode')]
+gcode = gcoder.LightGCode(gcode0)
+
+while not print_core.online:
+  time.sleep(0.1)
+  print(3)
+
+print(4)
+ret = False
+# while ret == False:
+#     ret = print_core.startprint(gcode)
+#     print(ret)
+print_core.startprint(gcode)
+
+# gcode1 = [i.strip() for i in open(layer_gcode_path + 'layer_1.gcode')]
+# gcode = gcoder.LightGCode(gcode1)
+
+# print_core.startprint(gcode)
+
+# sys.exit()
+while print_core.printing == True:
+  print(1)
+
+print_core.disconnect()
+
+
+# while(cap.isOpened()):
+
+
+
+
+
 
 # while(cap.isOpened()): # check camera status
 #     send_gcode("printer_communication/layerwise_gcode_file/layer_{}.gcode".format(0))
@@ -30,10 +72,10 @@ total_layer = 239
 # cap.release() # release storage
 
 # for testing
-layer = 1
-layer_gcode_path = "printer_communication/layerwise_gcode_file/layer_{}.gcode".format(layer)
+# layer = 1
+# layer_gcode_path = "printer_communication/layerwise_gcode_file/layer_{}.gcode".format(layer)
 # send_gcode("printer_communication/layerwise_gcode_file/layer_{}.gcode".format(0))
-send_gcode("printer_communication/layerwise_gcode_file/layer_{}.gcode".format(layer))
+# send_gcode("printer_communication/layerwise_gcode_file/layer_{}.gcode".format(layer))
 # # take picture
 # img_path = 'printer_communication/elp_test/layer_{}.jpg'.format(layer)
 # cor_gcode_dir = "printer_communication/iron_layer_gcode_file/"

@@ -15,7 +15,7 @@ def send_gcode(file_path):
 
     sys.exit()
 
-# send_gcode('printer_communication/gcode/test.gcode')
+send_gcode('printer_communication/gcode/test.gcode')
 
 
 # 'printer_communication/correction_gcode_file/layer_1_cor.gcode'
