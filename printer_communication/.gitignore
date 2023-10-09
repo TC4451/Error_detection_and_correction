@@ -1,7 +1,10 @@
 trash/
 correction_gcode_file/*
-layerwise_gcode_file/*
 iron_layer_gcode_file/*
 gcode/*
 elp_test/*
 __pycache__/*
+images/*
+layerwise_gcode_file/*
+
+

@@ -1,17 +1,18 @@
 import cv2
-from projection_elp import get_defect_positions
+from defect_detection import DefectDetection
 from gcode_ironing import generate_iron_layer
-from camera_control import take_pic
+from camera_control import CameraControl
 from printrun.printcore import printcore
 from printrun import gcoder
 import time
 
-gcode_path = 'printer_communication/gcode/SmallBellow_newwoutTri.gcode'
+gcode_path = 'printer_communication/gcode/SmallBellow_Oct8_Tri_move.gcode'
+gcode_noTri_path = 'printer_communication/gcode/SmallBellow_Oct8_noTri.gcode'
 layer_gcode_dir = 'printer_communication/layerwise_gcode_file/'
 cor_gcode_dir = 'printer_communication/iron_layer_gcode_file/'
-img_dir_path = 'printer_communication/elp_test/'
+img_dir_path = 'printer_communication/images/elp_test1008/'
 total_layer = 239
-defect_threshold = 100
+defect_threshold = 5
 
 # send gcode to printer
 def print_gcode(path):
@@ -24,21 +25,30 @@ def print_gcode(path):
 
     print_core.startprint(gcode)
     while print_core.printing == True:
-        pass
+        time.sleep(1)
+    print("layer done")
     print_core.disconnect()
 
+camera = CameraControl(1)
+
 print_gcode(layer_gcode_dir + "layer_0.gcode")
-# print('printer_communication/gcode/test.gcode')
-# print('printer_communication/gcode/test2.gcode')
+
+img_taken_position = [173, 156]
+layer_height = 0.1
+defect_detector = DefectDetection(gcode_noTri_path, img_dir_path, img_taken_position, layer_height)
 
 
-for i in range(1, total_layer):
+for i in range(1, total_layer+1):
     layer_gcode = layer_gcode_dir + "layer_{}.gcode".format(i)
     print_gcode(layer_gcode)
+    time.sleep(5)
+    print("start taking picture")
     img_path = img_dir_path + 'layer_{}.jpg'.format(i)
-    take_pic(img_dir_path, i)
-    coord_list = get_defect_positions(img_path, gcode_path, i, type=2)
-    coord_list=[element for sublist in coord_list for element in sublist]
+    camera.take_pic(img_dir_path, i)
+    img = cv2.imread(img_path)
+    coord_list = defect_detector.get_defect_positions(img, i, type=1)
+    # coord_list=[element for sublist in coord_list for element in sublist]
+    print(len(coord_list))
     if len(coord_list) < defect_threshold:
         pass
     else:
@@ -46,6 +56,7 @@ for i in range(1, total_layer):
         output_path = cor_gcode_dir + "layer_{}_cor.gcode".format(i)
         generate_iron_layer(layer_gcode, output_path)
         print_gcode(output_path)
+print_gcode(layer_gcode_dir + "layer_{}.gcode".format(total_layer+1))
 
 
 

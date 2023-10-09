@@ -12,11 +12,11 @@ def add_nozzle_movement(input_file, output_file):
             # Check if it's the end of a layer
             if line.startswith(";LAYER_CHANGE"):
                 # Add G-code to move nozzle to the camera position to corner of triangle
-                f_out.write("G1 X148 Y150\n") 
+                f_out.write("G1 X173 Y156\n") 
                 # wait for 10 seconds
                 # f_out.write("G4 P10000\n")
 
-input_file = "printer_communication/gcode/SmallBellow_newTri.gcode"
-output_file = "printer_communication/gcode/SmallBellow_newTri_move.gcode"
+input_file = "printer_communication/gcode/SmallBellow_Oct8_Tri.gcode"
+output_file = "printer_communication/gcode/SmallBellow_Oct8_Tri_move.gcode"
 
 add_nozzle_movement(input_file, output_file)

@@ -18,11 +18,4 @@ def parse_layer(gcode_file):
                 break
 
 
-parse_layer('printer_communication/gcode/SmallBellow_newTri_move.gcode')
-
-# !!! need to think of a way to deal with the end of the file
-
-# test = ";Z:0.5"
-# layer_height = float(test.strip().split(':')[1])
-# print(layer_height)
-# print(layer_height.dtype)
+parse_layer('printer_communication/gcode/SmallBellow_Oct8_Tri_move.gcode')

@@ -5,9 +5,6 @@ import matplotlib.pyplot as plt
 from tsp import *
 
 
-
-
-
 def transform(points, x, y, theta):
     rad = np.deg2rad(theta)
     R = np.array([[np.cos(rad), -np.sin(rad), x],
