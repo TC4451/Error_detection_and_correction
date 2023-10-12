@@ -31,7 +31,7 @@ class GCodeSender:
             time.sleep(0.1)  # Add a small delay between sending commands
 
 if __name__ == "__main__":
-    printer_port = "COM3"
+    printer_port = '/dev/tty.usbmodem14201'
     baud_rate = 115200
     gcode_sender = GCodeSender(printer_port, baud_rate)
     gcode_sender.start()
