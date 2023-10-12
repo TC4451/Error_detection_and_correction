@@ -4,6 +4,7 @@ from gcode_ironing import generate_iron_layer
 from camera_control import CameraControl
 from layer_parsing import parse_layer
 from gcode_nozzle_move_config import add_nozzle_movement
+from gcode_sender import GcodeSender
 from printrun.printcore import printcore
 from printrun import gcoder
 import time
@@ -21,19 +22,20 @@ layer_gcode_dir = 'printer_communication/layerwise_gcode_file/'
 cor_gcode_dir = 'printer_communication/iron_layer_gcode_file/'
 
 # send gcode to printer
-def print_gcode(path):
-    print_core = printcore('COM3', 115200)
-    gcode0 = [i.strip() for i in open(path)]
-    gcode = gcoder.LightGCode(gcode0)
+# def print_gcode(path):
+#     print_core = printcore('/dev/tty.usbmodem14201', 115200)
+#     # print_core = printcore('COM3', 115200)
+#     gcode0 = [i.strip() for i in open(path)]
+#     gcode = gcoder.LightGCode(gcode0)
 
-    while not print_core.online:
-        time.sleep(0.1)
+#     while not print_core.online:
+#         time.sleep(0.1)
 
-    print_core.startprint(gcode)
-    while print_core.printing == True:
-        time.sleep(1)
-    print("layer done")
-    print_core.disconnect()
+#     print_core.startprint(gcode)
+#     while print_core.printing == True:
+#         time.sleep(1)
+#     print("layer done")
+#     print_core.disconnect()
 
 add_nozzle_movement(gcode_path, move_gcode_path, move_X, move_Y)
 print("Movement modified")

@@ -8,17 +8,17 @@ np.set_printoptions(suppress=True)
 class DefectDetection:
     def __init__(self, gcode_path, img_folder_path, img_taken_position, layer_height = 0.1):
         self.camera_matrix = np.array([
-            [2213.44472103,   0.,         955.10214021], 
-            [0.,         2224.30381979, 527.46399473], 
+            [2127.41066162,   0.,       953.47149911], 
+            [0.,         2121.27521857, 510.30244235], 
             [0., 0., 1.]])
-        self.dist_coeffs = np.array([[-0.29758743, -0.37224022, -0.00058477, -0.00031724,  2.23050257]])
+        self.dist_coeffs = np.array([[-0.34400936, -0.11276819,  0.0018658,  -0.00130213,  0.83558632]])
 
         self.T_nozzle_cam = np.array([
-            [  0.99992787,   0.00990087,  -0.00679966,  52.5],
-            [  0.00991064,  -0.9999499,    0.00140497, -50.2],
-            [ -0.00678541,  -0.00147225,  -0.9999759,  103],
+            [  1,   0.,  0.,  55.5],
+            [  0.,  -1,    0., -44.2],
+            [ 0.,  0.,  -1,  57],
             [  0.,           0.,           0.,           1.]
-            ])
+        ])
         
         self.gcode_path = gcode_path
         self.layer_height = layer_height
@@ -110,8 +110,20 @@ class DefectDetection:
 
         return all_contours
         
+    def undistort_img(self, img):
+        h, w = img.shape[:2]
+        newcameramtx, roi = cv.getOptimalNewCameraMatrix(self.camera_matrix, self.dist_coeffs, (w,h), 1, (w,h))
+
+        mapx, mapy = cv.initUndistortRectifyMap(self.camera_matrix, self.dist_coeffs, None, newcameramtx, (w,h), 5)
+        img_undistorted = cv.remap(img, mapx, mapy, cv.INTER_LINEAR)
+
+        self.camera_matrix = newcameramtx
+        self.dist_coeffs = np.array([0., 0., 0., 0., 0.])
+        return img_undistorted
+        
     def project_contour(self, img, layerID, save_projection_img = True):
         img = cv.resize(img, self.img_shape)
+        img = self.undistort_img(img)
         height, width = img.shape[:2]
 
         isClosed = True
@@ -191,16 +203,16 @@ class DefectDetection:
         
 
 
-# img_folder_path = "printer_communication/images/elp_test1003/"
-# gcode_path = 'printer_communication/gcode/SmallBellow_newwoutTri.gcode'
-# img_taken_position = [148, 150]
-# layer_height = 0.1
-# defect_detector = DefectDetection(gcode_path, img_folder_path, img_taken_position, layer_height)
+img_folder_path = "printer_communication/images/1012/"
+gcode_path = 'printer_communication/gcode/SmallBellow_0.3mm_Oct12_noTri.gcode'
+img_taken_position = [174, 148]
+layer_height = 0.3
+defect_detector = DefectDetection(gcode_path, img_folder_path, img_taken_position, layer_height)
 
-# imgID = 6
-# layerID = imgID
-# print("image ID: {}".format(imgID))
-# img_path = img_folder_path + "layer_{}.jpg".format(imgID)
-# img = cv.imread(img_path)
-# positions = defect_detector.get_defect_positions(img, layerID)
-# print(positions)
+imgID = 1
+layerID = imgID
+print("image ID: {}".format(imgID))
+img_path = img_folder_path + "layer_{}.jpeg".format(imgID)
+img = cv.imread(img_path)
+positions = defect_detector.get_defect_positions(img, layerID)
+print(positions)
