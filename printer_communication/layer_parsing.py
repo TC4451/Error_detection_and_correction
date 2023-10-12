@@ -18,4 +18,4 @@ def parse_layer(gcode_file):
                 break
 
 
-parse_layer('printer_communication/gcode/SmallBellow_Oct8_Tri_move.gcode')
+# parse_layer('printer_communication/gcode/SmallBellow_Oct8_Tri_move.gcode')
