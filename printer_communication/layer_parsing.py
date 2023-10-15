@@ -1,7 +1,6 @@
-def parse_layer(gcode_file):
+def parse_layer(gcode_file, file_dir):
     lines = []
     layer_num = 0
-    file_dir = "printer_communication/layerwise_gcode_file/"
     for line in open(gcode_file):
         line = line.strip()
         lines.append(line)

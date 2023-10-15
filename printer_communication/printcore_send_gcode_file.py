@@ -4,7 +4,7 @@ import time
 import sys
 import json
 
-print_core = printcore('/dev/tty.usbmodem14201', 115200)
+print_core = printcore('COM3', 115200)
 # print_core = printcore('COM3', 115200)
 # gcode = [i.strip() for i in open('C:/Users/zdai2/Desktop/Vision_Based_3D_Printing/Error_detection_using_webcam/printer_communication/gcode/SmallBellow_0.4n_0.3mm_FLEX_MK3S_move.gcode')] # or pass in your own array of gcode lines instead of reading from a file
 json_string = sys.argv[1]

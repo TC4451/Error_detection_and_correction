@@ -12,7 +12,12 @@ class DefectDetection:
             [0.,         2121.27521857, 510.30244235], 
             [0., 0., 1.]])
         self.dist_coeffs = np.array([[-0.34400936, -0.11276819,  0.0018658,  -0.00130213,  0.83558632]])
-
+        self.img_shape = (1920, 1080)
+        self.undistort_camera_matrix, roi = cv.getOptimalNewCameraMatrix(self.camera_matrix, self.dist_coeffs, self.img_shape, 1, self.img_shape)
+        self.undistort_dist_coeffs = np.array([0., 0., 0., 0., 0.])
+        self.undistort_mapx, self.undistort_mapy = cv.initUndistortRectifyMap(self.camera_matrix, self.dist_coeffs, None, 
+                                                                              self.undistort_camera_matrix, self.img_shape, 5)
+        
         self.T_nozzle_cam = np.array([
             [  1,   0.,  0.,  55.5],
             [  0.,  -1,    0., -44.2],
@@ -24,7 +29,6 @@ class DefectDetection:
         self.layer_height = layer_height
         self.nozzle_pos = [0, 0, 0]
 
-        self.img_shape = (1920, 1080)
         self.img_folder_path = img_folder_path
         self.img_taken_position = img_taken_position
 
@@ -110,20 +114,19 @@ class DefectDetection:
 
         return all_contours
         
-    def undistort_img(self, img):
-        h, w = img.shape[:2]
-        newcameramtx, roi = cv.getOptimalNewCameraMatrix(self.camera_matrix, self.dist_coeffs, (w,h), 1, (w,h))
+    # def undistort_img(self, img):
+    #     # h, w = img.shape[:2]
+    #     # newcameramtx, roi = cv.getOptimalNewCameraMatrix(self.camera_matrix, self.dist_coeffs, (w,h), 1, (w,h))
 
-        mapx, mapy = cv.initUndistortRectifyMap(self.camera_matrix, self.dist_coeffs, None, newcameramtx, (w,h), 5)
-        img_undistorted = cv.remap(img, mapx, mapy, cv.INTER_LINEAR)
+    #     img_undistorted = cv.remap(img, mapx, mapy, cv.INTER_LINEAR)
 
-        self.camera_matrix = newcameramtx
-        self.dist_coeffs = np.array([0., 0., 0., 0., 0.])
-        return img_undistorted
+    #     # self.camera_matrix = newcameramtx
+    #     # self.dist_coeffs = np.array([0., 0., 0., 0., 0.])
+    #     return img_undistorted
         
     def project_contour(self, img, layerID, save_projection_img = True):
         img = cv.resize(img, self.img_shape)
-        img = self.undistort_img(img)
+        img = cv.remap(img, self.undistort_mapx, self.undistort_mapy, cv.INTER_LINEAR)
         height, width = img.shape[:2]
 
         isClosed = True
@@ -137,7 +140,7 @@ class DefectDetection:
         _, tvec, rvec = self.get_T_printer_cam(layerID)
         contours = self.get_contours(layerID)
         for contour_points in contours:
-            img_points, _ = cv.projectPoints(contour_points, rvec, tvec, self.camera_matrix, self.dist_coeffs)
+            img_points, _ = cv.projectPoints(contour_points, rvec, tvec, self.undistort_camera_matrix, self.undistort_dist_coeffs)
             img_points.reshape(-1, 1, 2)
             mask = np.zeros((height, width), dtype=np.uint8)
             cv.drawContours(mask, [img_points.astype(np.int32)], 0, mask_color, thickness=cv.FILLED)
@@ -203,16 +206,24 @@ class DefectDetection:
         
 
 
-img_folder_path = "printer_communication/images/1012/"
-gcode_path = 'printer_communication/gcode/SmallBellow_0.3mm_Oct12_noTri.gcode'
-img_taken_position = [174, 148]
-layer_height = 0.3
-defect_detector = DefectDetection(gcode_path, img_folder_path, img_taken_position, layer_height)
+# img_folder_path = "printer_communication/images/elp_test_1012/"
+# gcode_path = 'printer_communication/gcode/SmallBellow_0.3mm_Oct12_noTri.gcode'
+# img_taken_position = [176.5, 149]
+# layer_height = 0.3
+# defect_detector = DefectDetection(gcode_path, img_folder_path, img_taken_position, layer_height)
 
-imgID = 1
-layerID = imgID
-print("image ID: {}".format(imgID))
-img_path = img_folder_path + "layer_{}.jpeg".format(imgID)
-img = cv.imread(img_path)
-positions = defect_detector.get_defect_positions(img, layerID)
-print(positions)
+# imgID = 2
+# layerID = imgID
+# print("image ID: {}".format(imgID))
+# img_path = img_folder_path + "layer_{}.jpg".format(imgID)
+# img = cv.imread(img_path)
+# positions = defect_detector.get_defect_positions(img, layerID)
+# print(positions)
+
+# imgID = 3
+# layerID = imgID
+# print("image ID: {}".format(imgID))
+# img_path = img_folder_path + "layer_{}.jpg".format(imgID)
+# img = cv.imread(img_path)
+# positions = defect_detector.get_defect_positions(img, layerID)
+# print(positions)
