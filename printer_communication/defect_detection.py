@@ -19,8 +19,8 @@ class DefectDetection:
                                                                               self.undistort_camera_matrix, self.img_shape, 5)
         
         self.T_nozzle_cam = np.array([
-            [  1,   0.,  0.,  55.5],
-            [  0.,  -1,    0., -44.2],
+            [  1,   0.,  0.,  55.4],
+            [  0.,  -1,    0., -44.1],
             [ 0.,  0.,  -1,  57],
             [  0.,           0.,           0.,           1.]
         ])
@@ -165,40 +165,42 @@ class DefectDetection:
         
         r,g,b = cv.split(dst)
         # Normalize each channel independently
-        norm_r = cv.normalize(r, None, 0, 255, cv.NORM_MINMAX)
-        norm_g = cv.normalize(g, None, 0, 255, cv.NORM_MINMAX)
-        norm_b = cv.normalize(b, None, 0, 255, cv.NORM_MINMAX)
+        # norm_r = cv.normalize(r, None, 0, 255, cv.NORM_MINMAX)
+        # norm_g = cv.normalize(g, None, 0, 255, cv.NORM_MINMAX)
+        # norm_b = cv.normalize(b, None, 0, 255, cv.NORM_MINMAX)
 
         # merge and use mask as alpha channel
-        cropped_img = cv.merge([norm_r, norm_g, norm_b,final_mask], 4)
+        cropped_img = cv.merge([r, g, b, final_mask], 4)
+        # cropped_img = cv.merge([norm_r, norm_g, norm_b,final_mask], 4)
         return cropped_img
     
-    def get_defect_mask(self, cropped_img):
+    def get_defect_mask(self, cropped_img, binary_threshold = 90):
         # Image pre processing
         # img_RGB = cv.cvtColor(cropped_img, cv.COLOR_BGR2RGB)
         grayImage = cv.cvtColor(cropped_img, cv.COLOR_BGR2GRAY)
 
-        gaussianBlur = cv.GaussianBlur(grayImage, (7, 7), 0)
-        ret, binary = cv.threshold(gaussianBlur, 130, 255, cv.THRESH_BINARY_INV)
+        gaussianBlur = cv.GaussianBlur(grayImage, (5, 5), 0)
+        ret, binary = cv.threshold(gaussianBlur, binary_threshold, 255, cv.THRESH_BINARY_INV)
 
         # dst_lap = cv.Laplacian(binary, cv.CV_16S, ksize = 3)
         # Laplacian = cv.convertScaleAbs(dst_lap)
-        size_threshold = 20
+        min_threshold = 10
+        max_threshold = 200
         defect_mask = copy.copy(binary)
         analysis = cv.connectedComponentsWithStats(defect_mask, 8, cv.CV_32S)
         (totalLabels, label_ids, values, centroid) = analysis
         for i in range(1, totalLabels):
-            if values[i, 4] < size_threshold:
+            if values[i, 4] < min_threshold or values[i, 4] > max_threshold:
                 defect_mask[label_ids == i] = 0
 
         return defect_mask
 
-    def get_defect_positions(self, img, layerID, type = 1):
+    def get_defect_positions(self, img, layerID, type = 1, binary_threshold = 90):
         # type 1: centroid
         # type 2: all points
         # img = cv.imread(img_path)
         cropped_img = self.project_contour(img, layerID)
-        defect_mask = self.get_defect_mask(cropped_img)
+        defect_mask = self.get_defect_mask(cropped_img, binary_threshold)
         cv.imwrite(self.img_folder_path+"layer_{}_crop.png".format(layerID), cropped_img)
         cv.imwrite(self.img_folder_path+"layer_{}_defect.png".format(layerID), defect_mask)
 
@@ -206,19 +208,24 @@ class DefectDetection:
         
 
 
-# img_folder_path = "printer_communication/images/elp_test_1012/"
-# gcode_path = 'printer_communication/gcode/SmallBellow_0.3mm_Oct12_noTri.gcode'
-# img_taken_position = [176.5, 149]
-# layer_height = 0.3
+# img_folder_path = "printer_communication/images/elp_1020_2/"
+# gcode_path = 'printer_communication/gcode/SmallBellow_manualSeam_Rear_Oct20_noTri.gcode'
+# img_taken_position = [177.5, 152]
+# layer_height = 0.2
 # defect_detector = DefectDetection(gcode_path, img_folder_path, img_taken_position, layer_height)
 
-# imgID = 2
-# layerID = imgID
-# print("image ID: {}".format(imgID))
-# img_path = img_folder_path + "layer_{}.jpg".format(imgID)
-# img = cv.imread(img_path)
-# positions = defect_detector.get_defect_positions(img, layerID)
-# print(positions)
+# imgID = 3
+# for imgID in range(1,66):
+#     layerID = imgID
+#     print("image ID: {}".format(imgID))
+#     img_path = img_folder_path + "layer_{}.jpg".format(imgID)
+#     img = cv.imread(img_path)
+#     positions = defect_detector.get_defect_positions(img, layerID)
+#     print(len(positions))
+
+#     with open('./test.txt', 'a') as f:
+#         line = "num of defect in layer {}: {}\n".format(imgID, len(positions))
+#         f.write(line)
 
 # imgID = 3
 # layerID = imgID

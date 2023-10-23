@@ -22,7 +22,7 @@ class GcodeSender:
         # while (self.print_core.printing == True) or (self.print_core.send_thread != None):
         # while self.print_core.printing == True:
             time.sleep(0.1)
-        print("layer done")
+        # print("layer done")
 
 
         
