@@ -7,10 +7,9 @@ __pycache__/
 images/
 layerwise_gcode_file/
 test_parsing/
-layerwise_gcode_file/
 logs/
-iron_layer_gcode_file/
-
+bellow_layer_gcode_file/
+triangle_layer_gcode_file/
 
 
 
