@@ -54,8 +54,8 @@ def parse_layer(gcode_file, bellow_dir, triangle_dir):
     for l in temp_list:
         file.write(l + "\n")
 
-gcode_file = "printer_communication/gcode/SmallBellow_Zwiping_Oct23.gcode"
-bellow_dir = "printer_communication/bellow_layer_gcode_file/"
-tri_dir = "printer_communication/triangle_layer_gcode_file/"
+# gcode_file = "printer_communication/gcode/SmallBellow_Zwiping_Oct23.gcode"
+# bellow_dir = "printer_communication/bellow_layer_gcode_file/"
+# tri_dir = "printer_communication/triangle_layer_gcode_file/"
 
-parse_layer(gcode_file, bellow_dir, tri_dir)
+# parse_layer(gcode_file, bellow_dir, tri_dir)

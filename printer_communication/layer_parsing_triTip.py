@@ -33,7 +33,8 @@ def parse_layer_tip(gcode_file, file_dir, next_line_num):
         if line.strip():           
             line = line.strip()
             temp_list.append(line)
-            if "; printing object support_triangle" in line:
+            if "; printing object wiping_pattern_z" in line:
+            # if "; printing object support_triangle" in line:
                 # for i in range(next_line_num):
                 #     next_line = all_lines.__next__()
                 #     temp_list.append(next_line)
